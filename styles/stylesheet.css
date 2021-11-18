@@ -1,0 +1,71 @@
+h1 {
+  color: rgb(122,84,45);
+  font-weight:bold;
+}
+
+p {
+  color: rgb(97,66,36);
+}
+
+body{
+  background-color: rgb(255,249,242);
+}
+
+.cyan-text{
+  color:rgb(37,150,190);
+}
+
+.important:hover{
+  color: rgb(255,255,255);
+  background-color: rgb(37,150,190);
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: rgb(122,84,45);
+}
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+#main-paragraph {
+  color: rgb(36,156,142);
+  font-weight: bold;
+}
+
+a[href="https://www.linkedin.com/in/ashleycalixto/"] {
+  background-color: rgb(255,191,166);
+  padding:1rem;
+}
+
+a[href="https://github.com/ashcali/semantic-elements.git"] {
+  background-color: rgb(255,191,166);
+  padding:1rem;
+}
+
+a[href="https://github.com/ashcali/semantic-elements.git"] {
+  background-color: rgb(255,191,166);
+  padding:1rem;
+}
+
+img {
+  color: rgb(122,84,45);
+  border-style: groove;
+  border-color: rgb(165,161,255);
+  border-width: 2px;
+  width: 30%;

@@ -2,7 +2,7 @@
 font-family: 'Source Sans Pro', sans-serif;
 }
 .menucontainer{
-  height: 50px;
+  height: 0px;
   font-size: 20px;
   font-family: 'Source Sans Pro', sans-serif;
 
@@ -25,13 +25,18 @@ font-family: 'Source Sans Pro', sans-serif;
   align-items: center;
   }
   .box{
-    width: 400px;
+    height: 150px;
+    background-color: rgb(255, 197, 158);
     padding: 1rem 2rem 1rem;
+
   }
   .container{
-    height: 500px;
+    height: 100px;
     background-color: rgb(226, 119, 91);
+    font-size:18px;
     color: white;
+    padding: 2rem 3rem 2rem;
+    align-items: center;
 
     display:flex;
     flex-direction: row;

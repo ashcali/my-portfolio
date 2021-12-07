@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Portfolio Contact Form</title>
+    <link rel="stylesheet" type="text/css" href="styles/styles-form.css">
+  </head>
+  <body>
+
+    <h1> Let's Connect!</h1>
+    <form method="GET">
+      <label>Your name:
+        <input type="text" name="applicantName">
+      </label>
+
+      <label>Pronouns:
+        <input type="text" name="applicantPronouns">
+      </label>
+
+      <label>Your email:
+        <input type="email" name="applicantEmail">
+      </label>
+
+      <label>Phone Number:
+        <input type="text" name="applicantPhone">
+      </label>
+
+      <fieldset class="radio">
+        <legend>Prefered method contact method:</legend>
+      <label>
+        <input type="radio" name="method" value="phone"> Phone Call
+        <span class="dot"></span>
+      </label>
+
+      <label>
+        <input type="radio" name="method" value="email"> Email
+        <span class="dot"></span>
+      </label>
+
+      <label>
+        <input type="radio" name="method" value="text"> Text Message
+        <span class="dot"></span>
+      </label>
+
+      <label>
+        <input type="radio" name="method" value="virtual"> Zoom Call
+        <span class="dot"></span>
+      </label>
+      </fieldset>
+
+      <label>What is the best time to contact you?
+        <select name="hours">
+          <option value="">Please select</option>
+          <option value="few">Morning-Before noon</option>
+          <option value="some">Early Afternoon-1PM-5PM</option>
+          <option value="many">Evening- 5PM-9PM </option>
+        </select>
+      </label>
+
+      <fieldset class="checkbox">
+        <legend>How did you hear about us?</legend>
+      <label>Instagram
+        <input type="checkbox" name="type" value="instagram">
+        <span class="checkmark"></span>
+      </label>
+      <label>Facebook
+        <input type="checkbox" name="type" value="facebook">
+        <span class="checkmark"></span>
+      </label>
+      <label>Twitter
+        <input type="checkbox" name="type" value="twitter">
+        <span class="checkmark"></span>
+      </label>
+      <label>Google
+        <input type="checkbox" name="type" value="google">
+        <span class="checkmark"></span>
+      </label>
+      <label>Word of Mouth
+        <input type="checkbox" name="type" value="word">
+        <span class="checkmark"></span>
+      </label>
+      <label>Business Cards
+        <input type="checkbox" name="type" value="cards">
+        <span class="checkmark"></span>
+      </label>
+    </fieldset>
+
+      <input type="submit" value="Apply Now!">
+    </form>
+
+  </body>
+</html>
